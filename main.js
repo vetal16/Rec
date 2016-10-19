@@ -12,7 +12,7 @@ function imageDropped(evt) {
     
     console.log("Examining image: " + imageRequested);
     $imageFound.attr("src", imageRequested);
-    baseUrl = "http://127.0.0.1:5000";
+    //baseUrl = "http://127.0.0.1:5000";
     $.ajax({
         type: "POST"
         , url: baseUrl + "/examineImage"
