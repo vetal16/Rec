@@ -1,0 +1,29 @@
+{
+  "name": "image-recognition-nodejs-heroku",
+  "version": "0.0.1",
+  "description": "A Node.js app to test image recognition with Clarifai API",
+  "engines": {
+    "node": "6.6.0"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "4.13.3",
+    "clarifai": "2.0.9",
+    "body-parser": "1.15.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yshao0711/image-recognition-nodejs-heroku"
+  },
+  "keywords": [
+    "image recognition",
+    "clarifai",
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}

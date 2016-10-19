@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image recognition tester</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        #dropArea {
+            border: 1px solid #fff;
+            bottom: 5%;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            font-family: "Lora", Arial, sans-serif;
+            font-size: 30px;
+            left: 5%;
+            position: absolute;
+            right: 5%;
+            text-align: center;
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            top: 5%;
+        }
+        
+        #imageContainer {
+            bottom: 10px;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            left: 10px;
+            position: absolute;
+            right: 10px;
+            text-align: center;
+            top: 10px;
+            background: #000;
+        }
+        
+        #imageFound {
+            background-size: 100% cover;
+            background: none 0 0 no-repeat #000;
+            position: absolute;
+            width: 100%;
+        }
+        
+    </style>
+</head>
+
+<body> <div id="imageContainer"><img src="" id="imageFound" /></div>
+    <div id="dropArea" ondragover="return false;">Drop your image from the web into here!</div>
+    <script src="./main.js"></script>
+</body>
+
+</html>

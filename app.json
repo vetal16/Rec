@@ -1,0 +1,8 @@
+{
+  "name": "Image Recognition test on Heroku: Node.js",
+  "description": "A Node.js app to test image recognition with Clarifai API",
+  "repository": "https://github.com/yshao0711/image-recognition-nodejs-heroku",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["image recognition", "clarifai", "node", "express", "static"],
+  "image": "heroku/nodejs"
+}
